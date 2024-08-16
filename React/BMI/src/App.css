@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Margarine&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", serif
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+}
+.container{
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    height: 350px;
+}
+.data{
+    margin-right: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+.output{
+    width: 100%;
+    text-align: center;
+}
+.calculate,.clearbtn{
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: lightgreen;
+}
+.image{
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url('body-mass-index.png');
+    background-position: center;
+}
+.error{
+    color: red;
+
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.clearbtn{
+    background-color: lightcoral;
+}

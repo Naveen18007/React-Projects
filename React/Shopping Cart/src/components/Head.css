@@ -1,0 +1,19 @@
+.container{
+   width: 100%;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.container ul{
+    display: inline-flex;
+}
+.container ul li{
+    list-style-type: none;
+    padding-left: 10px;
+}.container ul li a{
+    text-decoration: none;
+    color: white;
+}

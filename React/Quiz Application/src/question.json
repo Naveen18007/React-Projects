@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "Question":"What is the capital of India ?",
+        "Options":["Mumbai","Delhi","Banglore","Tamilnadu"],
+        "Correctoption":"Delhi"
+    },
+    {
+        "id":2,
+        "Question":"What is the Second capital of Tamilnadu ?",
+        "Options":["Mumbai","Delhi","Banglore","Tamilnadu"],
+        "Correctoption":"Mumbai"
+    }
+]

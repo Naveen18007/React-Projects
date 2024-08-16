@@ -1,0 +1,29 @@
+.container{
+/* Suggested code may be subject to a license. Learn more: ~LicenseLog:1886311882. */
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.data,.size{
+    display: block;
+    text-align: left;
+    margin: 10px 0px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+
+}
